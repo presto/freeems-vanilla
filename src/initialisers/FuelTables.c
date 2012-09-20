@@ -62,7 +62,7 @@ const volatile mainTable VETableMainFlashV FUELTABLESD = {
 #if CONFIG == TRUCK_ID
 #include "../data/tables/axis/FredsTruck-RPM.h"
 #elif CONFIG == PRESTO_ID
-#include "../data/tables/axis/FredsTruck-RPM.h"
+#include "../data/tables/axis/Presto4age-RPM.h"
 #elif CONFIG == SEANKLT1_ID
 #include "../data/tables/axis/SeansLT1-RPM.h"
 #elif SEANKR1 // No ID assigned yet!
@@ -83,7 +83,7 @@ const volatile mainTable VETableMainFlashV FUELTABLESD = {
 #if CONFIG == TRUCK_ID
 #include "../data/tables/axis/FredsTruck-Load.h"
 #elif CONFIG == PRESTO_ID
-#include "../data/tables/axis/FredsTruck-Load.h"
+#include "../data/tables/axis/Presto4age-Load.h"
 #elif CONFIG == SEANKLT1_ID
 #include "../data/tables/axis/FredsTruck-Load.h"
 #elif SEANKR1 // No ID assigned yet!
@@ -104,7 +104,7 @@ const volatile mainTable VETableMainFlashV FUELTABLESD = {
 #if CONFIG == TRUCK_ID
 #include "../data/tables/ve/FredsTruckVE.h"
 #elif CONFIG == PRESTO_ID
-#include "../data/tables/ve/flat60Percent.h"
+#include "../data/tables/ve/flat50Percent.h"
 #elif CONFIG == SEANKLT1_ID
 #include "../data/tables/ve/SeansLT1VE.h"
 #elif SEANKR1 // No ID assigned yet!

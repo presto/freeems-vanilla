@@ -69,7 +69,7 @@ const volatile mainTable IgnitionAdvanceTableMainFlashV TIMETABLESD = {
 #elif CONFIG == HOTEL_ID
 #include "../data/tables/axis/HotelHyundai-RPM.h"
 #elif CONFIG == PRESTO_ID
-#include "../data/tables/axis/FredsTruck-RPM.h"
+#include "../data/tables/axis/Presto4age-RPM.h"
 #elif CONFIG == SEANKLT1_ID
 #include "../data/tables/axis/SeansLT1-RPM.h"
 #elif SEANKR1 // No ID assigned yet!
@@ -94,7 +94,7 @@ const volatile mainTable IgnitionAdvanceTableMainFlashV TIMETABLESD = {
 #elif CONFIG == HOTEL_ID
 #include "../data/tables/axis/HotelHyundai-Load.h"
 #elif CONFIG == PRESTO_ID
-#include "../data/tables/axis/FredsTruck-Load.h"
+#include "../data/tables/axis/Presto4age-Load.h"
 #elif CONFIG == SEANKLT1_ID
 #include "../data/tables/axis/FredsTruck-Load.h"
 #elif SEANKR1 // No ID assigned yet!
@@ -120,7 +120,7 @@ const volatile mainTable IgnitionAdvanceTableMainFlashV TIMETABLESD = {
 #elif CONFIG == HOTEL_ID
 #include "../data/tables/ign/HotelHyundaiIgnitionTiming.h"
 #elif CONFIG == PRESTO_ID
-#include "../data/tables/ign/flat15degrees.h"
+#include "../data/tables/ign/Presto4ageIgnitionTiming.h"
 #elif CONFIG == SEANKLT1_ID
 #include "../data/tables/ign/SeansLT1IgnitionTiming.h"
 #elif SEANKR1 // No ID assigned yet!

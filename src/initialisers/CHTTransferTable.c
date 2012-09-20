@@ -49,7 +49,7 @@ const volatile unsigned short CHTTransferTable[1024] LOOKUPD = {
 #if CONFIG == TRUCK_ID
 #include "../data/thermistors/Bosch.h"
 #elif CONFIG == PRESTO_ID
-#include "../data/thermistors/Bosch.h"
+#include "../data/thermistors/Denso-2k4Bias.h"
 #elif CONFIG == SEANKLT1_ID
 #include "../data/thermistors/Bosch.h"
 #elif SEANKR1 // No ID assigned yet!
